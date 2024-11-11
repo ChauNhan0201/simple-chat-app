@@ -1,0 +1,16 @@
+{
+  "name": "chat-server",
+  "version": "1.0.0",
+  "main": "dist/server.ts",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^4.8.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "scripts": {
+    "start": "tsc && node dist/server.ts",
+    "build": "tsc",
+    "dev": "ts-node src/server.ts"
+  }
+}
